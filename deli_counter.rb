@@ -7,7 +7,7 @@ def line(katz_deli)
   else
    line = "The line is currently:"
    katz_deli.each.with_index do |index, name|
-   line << "#{index + 1}. #{name}" #shovel add to end of string with beginning space
+   line << " #{index + 1}. #{name}" #shovel add to end of string with beginning space
   end
   puts line
   end
