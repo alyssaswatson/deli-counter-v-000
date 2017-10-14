@@ -8,6 +8,6 @@ def line(katz_deli)
    katz_deli.each.with_index(1) do |place_in_line, name|
    line << "The line is currently: #{place_in_line}. #{name}" #shovel add to end of string with beginning space
   end
-  puts line
   end
+  puts line
 end
