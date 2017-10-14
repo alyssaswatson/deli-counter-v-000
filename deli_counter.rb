@@ -10,5 +10,4 @@ def line(katz_deli)
   end
   end
   puts line
-  binding.pry
 end
