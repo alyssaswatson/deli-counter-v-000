@@ -9,6 +9,6 @@ def line(katz_deli)
    katz_deli.each.with_index do |place_in_line, name|
    line << "#{place_in_line}. #{name}" #shovel add to end of string with beginning space
   end
-  end
   puts line
+  end
 end
