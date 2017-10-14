@@ -6,8 +6,8 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
    line = "The line is currently:"
-   katz_deli.each.with_index do |place_in_line, name|
-   line << "#{place_in_line}. #{name}" #shovel add to end of string with beginning space
+   katz_deli.each.with_index do |index, name|
+   line << "#{index + 1}. #{name}" #shovel add to end of string with beginning space
   end
   puts line
   end
